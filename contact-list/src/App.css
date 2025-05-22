@@ -1,0 +1,112 @@
+/* General Body Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main Container */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+/* Title */
+.App .MuiTypography-h4 {
+  font-weight: 600;
+  color: #3f51b5;
+}
+
+/* Subheading */
+.App .MuiTypography-body1 {
+  color: #555;
+  font-size: 1.1rem;
+}
+
+/* Paper Styling */
+.MuiPaper-root {
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.MuiButton-root {
+  background-color: #3f51b5;
+  color: #fff;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.MuiButton-root:hover {
+  background-color: #303f9f;
+}
+
+/* Contact Table */
+.MuiTable-root {
+  margin-top: 1rem;
+}
+
+.MuiTableCell-root {
+  color: #555;
+  padding: 1rem;
+}
+
+.MuiTableHead-root {
+  background-color: #f1f1f1;
+  font-weight: 600;
+}
+
+.MuiAvatar-root {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.MuiIconButton-root {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+/* Search Box */
+.MuiTextField-root {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.MuiTextField-root .MuiInputBase-root {
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+/* Switch */
+.MuiFormControlLabel-root {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Snackbar */
+.MuiSnackbar-root {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
